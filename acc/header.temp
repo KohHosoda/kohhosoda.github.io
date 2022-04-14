@@ -1,0 +1,71 @@
+<HTML>
+
+<!--ここより以降、編集禁止！-->
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<TITLE>アクセス解析結果 [futomi's CGI Cafe]</TITLE>
+<STYLE TYPE="text/css">
+	table	{ font-size: 12px; }
+	a	{ font-size: 12px; }
+	form	{ font-size: 12px; }
+	.size1	{ font-size: 8px }
+	.size2	{ font-size: 10px }
+	.size3	{ font-size: 12px }
+	.size4	{ font-size: 14px }
+	.size5	{ font-size: 18px }
+	.size6	{ font-size: 20px }
+	.size7	{ font-size: 24px }
+	.ListHeader	{
+		BACKGROUND: #3A6EA5;
+		BORDER-BOTTOM: #003366 1px solid;
+		BORDER-LEFT: #99CCFF 1px solid;
+		BORDER-RIGHT: #003366 1px solid;
+		BORDER-TOP: #99CCFF 1px solid;
+		COLOR: #FFFFFF;
+		FONT-WEIGHT: bold;
+		PADDING-LEFT: 2px;
+	}
+	.ListHeader2	{
+		BACKGROUND: #EAEAEA;
+		BORDER-BOTTOM: #FFFFFF 1px solid;
+		BORDER-LEFT: #5F5F5F 1px solid;
+		BORDER-RIGHT: #FFFFFF 1px solid;
+		BORDER-TOP: #5F5F5F 1px solid;
+		COLOR: #FFFFFF;
+		FONT-WEIGHT: bold;
+		PADDING-LEFT: 0px;
+	}
+	.ListHeader3	{
+		BACKGROUND: #969696;
+		BORDER-BOTTOM: #000000 1px solid;
+		BORDER-LEFT: #FFFFFF 1px solid;
+		BORDER-RIGHT: #000000 1px solid;
+		BORDER-TOP: #FFFFFF 1px solid;
+		COLOR: #FFFFFF;
+		FONT-WEIGHT: bold;
+		PADDING-LEFT: 0px;
+	}
+	.ListHeader4	{
+		BACKGROUND: #666699;
+		BORDER-BOTTOM: #39397B 2px solid;
+		BORDER-LEFT: #CECEFF 2px solid;
+		BORDER-RIGHT: #39397B 2px solid;
+		BORDER-TOP: #CECEFF 2px solid;
+		COLOR: #FFFFFF;
+		PADDING-LEFT: 5px;
+	}
+
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<div ALIGN="RIGHT">
+$COPYRIGHT$
+</div>
+<!--ここより以前は編集禁止！-->
+
+<!--これ以降、編集可-->
+
+<b class="size5">アクセス解析結果</b>
+<br>
+
+
