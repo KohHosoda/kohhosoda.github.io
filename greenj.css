@@ -1,0 +1,74 @@
+/* greenj.css */ 
+
+/*
+
+このスタイルシートは構造化エディタ"sted format"で記述されています．
+構造化エディタstedを使用すると，木構造が確認できます．
+
+Structure Editor
+http://club.pep.ne.jp/~momotan/sted.html
+
+History
+15 Mar, 2002: Edited for "sted format"
+
+*/
+ 
+/* COMMON */ 
+	
+/* base */ 
+ 
+/* ahchor */ 
+ 
+/* block */ 
+	
+p 
+{
+	line-height:150%;
+}
+/* 日本語フォント用の段落空け */
+  
+/* inline */ 
+ 
+/* hn */ 
+ 
+/* list */ 
+ 
+/* table */ 
+ 
+/* form */ 
+  
+/* Specials */ 
+	
+/* common */ 
+ 
+/* index */ 
+ 
+/* cv */ 
+ 
+/* interest */ 
+ 
+/* past work */ 
+ 
+/* papers */ 
+	
+ul.bibliography 
+{
+    	color: #353
+}
+ 
+ul.bibliography em 
+{
+	color: #b33
+}
+ 
+ul.bibliography li.japanese 
+{
+    	color: #333
+}
+ 
+ul.bibliography li.japanese em { 
+	color: #d33
+}
+  
+/* lecutures */ 
+  
