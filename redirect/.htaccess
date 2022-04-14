@@ -1,0 +1,7 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+DirectoryIndex indexj.html
+Redirect /./ http://www.robot.ams.eng.osaka-u.ac.jp/hosoda
+
