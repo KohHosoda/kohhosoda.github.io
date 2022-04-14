@@ -1,0 +1,302 @@
+/* green.css */ 
+
+/*
+
+This style sheet is described in "sted format"
+If you use structure editor, you can see the tree structure
+of this file
+
+Structure Editor
+http://club.pep.ne.jp/~momotan/sted.html
+
+History
+15 Mar, 2002: Edited for "sted format"
+
+*/
+ 
+/* COMMON */ 
+	
+/* base */ 
+	
+body 
+{
+	font: 85% 'Osaka', 'Verdana', 'MS UI Gothic', sans-serif;
+	color: #333;
+	background-color: #ffe;
+	background-image:url(img/for.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed
+}
+  
+/* anchor */ 
+	
+a:link 
+{
+	/*margin: 0px 0.2em;*/
+	color: #282;
+	background-color: transparent
+}
+ 
+a:link img 
+{
+	border-style: none;
+}
+ 
+a:visited 
+{
+	/*margin: 0px 0.2em;*/
+	color: #585;
+	background-color: transparent
+}
+ 
+a:visited img 
+{
+	border-style: none;
+}
+ 
+a:active 
+{
+/*	margin: 0px 0.2em;*/
+	color: #efe;
+	background-color: #484;
+	text-decoration: none
+}
+ 
+a:hover 
+{
+/*	margin: 0px 0.2em;*/
+	color: #efe;
+	background-color: #484;
+	text-decoration: none
+}
+ 
+a img 
+{
+	background-color: #ffe;
+	margin:1em
+}
+  
+/* block */ 
+	
+div.lastupdate 
+{
+	padding: 0.1em;
+	margin-bottom: 1em;
+	text-align: right;
+	color: #f33
+}
+ 
+div.contents 
+{
+	border: #79e 1px dashed;
+	padding: 0.5em;
+	font-size: 90%;
+/*	float: left;*/
+	width: 12em;
+	color: #333;
+	background-color: #dfe
+}
+	
+div.contents ul 
+{
+	padding: 0px;
+	margin: 1em 1em 1em 0.5em;
+	line-height: 155%;
+	list-style-type: none
+}
+
+div.contents ol 
+{
+	padding: 0px;
+	margin: 1em 1em 1em 0.5em;
+	line-height: 155%;
+	list-style-type: none
+}
+  
+div.mainbody 
+{
+/*	float: right;*/
+	position: absolute;
+	top: 5em;
+	left: 13em;
+	margin: 0em 0em 0em 0.5em
+}
+	
+div.mainbody p 
+{
+	margin: 0.2em 0.5em
+}
+ 
+div.mainbody p.comment 
+{
+	font-style: italic
+}
+  
+div.angleframe 
+{
+	border-right: #0d0 1px solid;
+	border-bottom: #0d0 1px solid
+}
+	
+div.angleframe p 
+{
+	background-image: url('img/abit.gif');
+	background-repeat: no-repeat;
+	text-indent: 1.5em;
+	background-position: 0em 0.3em;
+}
+  
+div.navi 
+{
+	clear: both;
+	margin: 0.5em 1em;
+	text-align: right
+}
+ 
+address 
+{
+	float: right
+}
+  
+/* inline */ 
+	
+.hidden 
+{
+	display: none
+}
+ 
+img 
+{
+	float: right;
+}
+ 
+address img 
+{
+	float: left
+}
+ 
+em 
+{
+	font-weight: bold;
+	font-style: normal;
+	margin: 0px 0.2em;
+}
+ 
+strong 
+{
+	padding: 0.1em;
+	font-weight: bold;
+	margin: 0px 0.1em;
+	color: #333;
+	background-color: #8fc
+}
+  
+/* hn */ 
+	
+h1, h2, h3 
+{
+	padding: 0.1em;
+	margin-bottom: 1em
+}
+ 
+h1 
+{
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+	color: #111;
+}
+ 
+h2 
+{
+	font-weight: bold;
+	font-size: 125%;
+	border: #7a4 1px solid;
+	color: #333;
+	background-color: #bd8
+}
+ 
+h3 
+{
+	border-left: #596 0.5em solid;
+	font-size: 115%;
+	margin: 0.5em 0px
+}
+ 
+h4 
+{
+	font-size: 100%;
+	margin: 0.5em 0px;
+	color: #080
+}
+  
+/* list */ 
+	
+ul 
+{
+	list-style-type: circle
+}
+ 
+ul.contents em 
+{
+	font-weight: normal;
+	color: #efe;
+	background-color: #474
+}
+
+ol.contents em 
+{
+	font-weight: normal;
+	color: #efe;
+	background-color: #474
+}
+  
+/*  table */ 
+ 
+/* form */ 
+  
+/* index */ 
+ 
+/* cv */ 
+	
+dl.yeartag dt 
+{
+	display: inline;
+	background-color: #fdc
+}
+ 
+dl.yeartag dd 
+{
+	margin-bottom: 1em
+}
+ 
+dl.budget dt 
+{
+	background-color: #fdc;
+	font-size: 105%;
+	margin: 0.5em 0px
+}
+ 
+dl.budget dt.mybudget 
+{
+	background-color: #faa;
+}
+  
+/* interest */ 
+ 
+/* past work */ 
+ 
+/* papers */ 
+	
+ul.bibliography em 
+{
+	color: #d33
+}
+
+ol.bibliography em 
+{
+	color: #d33
+}
+
+/* lectures */ 
+ 
