@@ -1,0 +1,7 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+DirectoryIndex indexj.html
+AddType "text/html; charset=ISO-2022-JP" html
+AddType "application/x-smaf" mmf
