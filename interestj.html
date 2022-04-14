@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=ja>
+<head>
+<title>Frame of Reference : 研究の興味</title>
+<meta http-equiv=Content-type content="text/html; charset=iso-2022-jp">
+<meta http-equiv=Content-style-type content="text/css">
+<meta name=author content="細田 耕" >
+<meta name=keywords content="ロボティクス, 参照座標, ロボットの知能">
+<meta name=description
+  content="現在興味を持って進めている研究についての説明">
+<link rel="stylesheet" type="text/css" href="green.css" media=all>
+<link rel="stylesheet" type="text/css" href="greenj.css" media=all>
+<link rev="made" href="Koh Hosoda">
+<link rel="start" title="Frame of Reference: ご挨拶" href="indexj.html">
+<link rel="alternate" hreflang="en" title="English home" href="interest.html">
+</head>
+
+<body>
+<h1 class=hidden id=title>Frame of Reference</h1>
+
+<div class=lastupdate>
+<!-- hhmts start -->
+Last modified: Mon Jul 05 13:18:55 JST 2004
+<!-- hhmts end -->
+</div>
+<hr class=hidden>
+
+<div class=contents title=contents>
+<span class=title>目次:</span>
+<ul class=contents>
+  <li><a href="indexj.html">ご挨拶</a></li>
+  <li><a href="cvj.html">個人情報</a></li>
+  <li><em>研究の興味</em></li>
+  <li><a href="pastworkj.html">過去の研究</a></li>
+  <li><a href="papersj.html">関連論文</a></li>
+  <li><a href="lecturesj.html">担当講義</a></li>
+  <li></li>
+  <li><a href="interest.html">[English]</a></li>
+</ul>
+</div>
+<hr class=hidden>
+
+<div class=mainbody>
+
+<h2>研究の興味の対象と方向性:</h2>
+
+<h3>多数の自由度，さまざまな種類のセンサを搭載するロボットの制御アーキ
+テクチャ</h3>
+<div class=angleframe>
+<p>与えられる作業に対して，ロボットが持つ自由度が多い場合には，その自
+由度をどのように割り当てればよいかが難しい問題となります．また，さまざ
+まな異なる種類のセンサが搭載されている場合にも，それらのセンサからの情
+報をどのように統合するかによって，ロボットが環境に対して柔軟に適応でき
+るかどうかが決まります．このような多数のモータやセンサは，<em>頭のいい
+</em>設計者が，その接続を決めれば，それなりに動くでしょう．</p>
+<p>しかし，ここで考えたいのは，そのような接続を，ロボットが自動的に，
+環境と相互作用することによって発見するからくりです．このようなからくり
+を作り上げることによって，ロボットが環境の変化に適応的になることができ，
+設計者はあらかじめ環境のことに頭を悩ませなくてもすむようになるはずです．
+</p>
+</div>
+<div class=navi>
+<a class=navi href="#top">
+▲ Page Top (T)</a> 
+</div>
+
+<h3>ロボットに関する参照フレーム問題</h3>
+<div class=angleframe>
+<p>設計者があらかじめロボットの用いられる環境を想定し，その環境に応じ
+てロボットを制御するためのプログラムを作る，というのがこれまでのロボッ
+ト制御のやり方であった．工場やオフィスビルのように整備された環境内での
+振る舞いであれば，このような方法によって容易に実現できる．しかし，環境
+に未知の，あるいは動的な要素が考えられる場合，このような方法に従うと，
+設計者があらかじめ想定される動的な成分について熟考し，想定される状況を
+すべて尽くすようにプログラムを作る必要がある．周知のとおり，このような
+方法を用いている限り，環境が複雑になるに従ってプログラムは複雑になって
+しまうという，いわゆるフレーム問題の呪縛から逃れることはできない．また，
+生成される振る舞いは，あらかじめ設計者が「想定」したものに過ぎず，環境
+変化に対する適応性という意味では，ごく狭い「想定された」適応性である．
+言い換えれば，ここでの適応性は，ロボット自身の知能ではなく，設計者の知
+能の高さを証明するに過ぎない．環境との相互作用を，あらかじめ設計者が全
+て書き下しているからである．</p>
+<p>
+そこで，設計者（観測者）の視点から作業を定義し，ロボットを動かすという
+方法こそが，このような制限が生じる原因であると考え，設計者の視点ではな
+く，ロボット自身の視点，つまりロボット自身が持つセンサ空間上で作業を定
+義し，遂行することが重要であると考える．ロボットが獲得するセンサ情報は，
+ロボットと環境の相互作用を反映し，ある拘束を満たしている．従来の方法で
+は，このような拘束を，あらかじめ設計者が書き下す必要があり，これにが著
+しく適応性を失う最大の原因であると考えられる．本研究では，このような相
+互作用によって生み出される拘束をロボットが自律的に発見し，柔軟に適応す
+ることによって，ロボット全体の適応性が画期的に向上することを示す．この
+ようにして得られる振る舞いは，設計者があらかじめ埋め込んだものではなく，
+環境との相互作用を通して生み出されるものであり，ロボットの知能の高さを
+物語るものである．
+</p>
+</div>
+(以下，続刊予定)
+<div class=navi>
+<a class=navi href="#top">
+▲ Page Top (T)</a> 
+</div>
+<hr class=hidden>
+<address>
+<a href="http://validator.w3.org/check/referer">
+<img src="img/valid-html401.gif"
+        alt="Valid HTML 4.01!" height="31" width="88"></a><br>
+Copyright &copy; Koh Hosoda
+</address>
+</div>
+</body>
+</html>
