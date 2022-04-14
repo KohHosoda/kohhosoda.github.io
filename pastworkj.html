@@ -1,0 +1,280 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=ja>
+<head>
+<title>Frame of Reference : 過去の研究</title>
+<meta http-equiv=Content-type content="text/html; charset=iso-2022-jp">
+<meta http-equiv=Content-style-type content="text/css">
+<meta name=author content="細田 耕" >
+<meta name=keywords content="ロボティクス, 参照座標, ロボットの知能">
+<meta name=description
+  content="これまでに細田によって行われた過去の研究に関する説明">
+<link rel="stylesheet" type="text/css" href="green.css" media=all>
+<link rel="stylesheet" type="text/css" href="greenj.css" media=all>
+<link rev="made" href="Koh Hosoda">
+<link rel="start" title="Frame of Reference: ご挨拶" href="indexj.html">
+<link rel="alternate" hreflang="en" title="English home" href="pastwork.html">
+</head>
+
+<body>
+<h1 class=hidden id=title>Frame of Reference</h1>
+
+<div class=lastupdate>
+<!-- hhmts start -->
+Last modified: Mon Jul 05 13:26:12 JST 2004
+<!-- hhmts end -->
+</div>
+<hr class=hidden>
+
+<div class=contents title=contents>
+<span class=title>目次:</span>
+<ul class=contents>
+  <li><a href="indexj.html">ご挨拶</a></li>
+  <li><a href="cvj.html">個人情報</a></li>
+  <li><a href="interestj.html">研究の興味</a></li>
+  <li><em>過去の研究</em></li>
+  <li><a href="papersj.html">関連論文</a></li>
+  <li><a href="lecturesj.html">担当講義</a></li>
+  <li></li>
+  <li><a href="pastwork.html">[English]</a></li>
+</ul>
+</div>
+<hr class=hidden>
+
+<div class=mainbody>
+
+<h2>過去の研究</h2>
+<h3>反射的行動に基づく四脚ロボットの歩行の創発<br>
+Quadruped Walking Based on Reflective Behaviors</h3>
+<img id=titan-viii src="img/titan-viii.jpg" alt="四足歩行ロボットTITANの概観" width="30%">
+<h4>研究背景：</h4>
+<p>四脚歩行ロボットの制御としてオーソドックスなのは，<em>1:</em>設計者
+がペース，トロットなど，ロボットの歩容(歩行パターン)を決める，
+<em>2:</em>歩行パターンにしたがって，各脚の動きが決まる，<em>3:</em>そ
+の脚の動きに基づいて，各関節の目標値が計算される，<em>4:</em>その目標
+値に追従するようにサーボを適用する，という方法である．ロボットに視覚セ
+ンサなどの<em>外界センサ</em>が搭載され，環境の観測ができる場合には，
+センサからの情報に基づいて歩容パターンを変え，上記の手続きに従って環境
+変化に適応する．容易に想像がつくように，このような方法を用いた場合，セ
+ンサからの情報を<em>複数段</em>にわたって処理するため，<em>処理に時間
+がかかり，その結果環境に対する反応速度は下がる</em>．また，あらかじめ
+決められた歩容の範囲内での適応ができるのみで，状況に応じて脚の動かし方
+を柔軟に変化させることは困難である．</p>
+<h4>研究目的と成果：</h4>
+<p>本研究の目的は，<em>環境変化に対して柔軟に適応できる四脚ロボット</em>
+の構築である．環境に対する適応性を向上するためには，環境の状態を観測す
+る外界センサの信号を，できるだけ速く，しかも直接制御に反映させることが
+キーとなる(視覚サーボと同じ考え方，サブサンプションアーキテクチャの基
+本でもある)．</p>
+<p>そこで，このような制御を実現するためのアーキテクチャとして，<em>視
+覚サーボによる制御</em>と，<em>脚先に備え付けられた力センサに基づく運
+脚制御</em>の組み合わせを作り，これによって，陽に歩行/歩容を計画するこ
+と無しに歩行が<em>創発(emergence)</em>されることを示した．</p>
+<h4>論文：</h4>
+<ul class=bibliography>
+  <li> <em>Koh Hosoda</em>, Takahiro Miyashita, and Minoru Asada,
+       ``Emergence of Quadruped Walk by a Combination of Reflexes'',
+       Proc. of the International Symposium on Adaptive Motion of
+       Animals and machines,
+       CD-ROM,
+       2000.</li>
+ <li> Takahiro Miyashita, <em>Koh Hosoda</em>,
+      and Minoru Asada, ``Reflective
+      walk based on lifted leg control and vision-cued swaying
+      control'', Proc. of 1998 BSMEE International Symposium on
+      Climbing and Walking Robots(CLAWAR'98), pp.349--354, 1998. </li>
+ <li> Takahiro Miyashita, <em>Koh Hosoda</em>,
+      and Minoru Asada, ``Hybrid
+      Structure of Reflective Gait Control and Visual Servoing for
+      Walking'', Proc. of IEEE/RSJ International Conference on
+      Intelligent Robots and Systems 1998 (IROS '98), pp.229--234,
+      1998. </li>
+ <li> <em>Koh Hosoda</em>, Takahiro Miyashita,
+      Susumu Takeuchi, and Minoru Asada,
+      ``Adaptive Visual Servoing for Legged Robots --Vision-Cued Swaying
+      of Legged Robots in Unknown Environments--'', Proc. of IEEE/RSJ
+      Int. Conf. on Intelligent Robots and Systems 1997 (IROS'97),
+      pp.778--784 1997.</li>
+ <li> Takahiro Miyashita, <em>Koh Hosoda</em>,
+      and Minoru Asada, ``An
+      Environmental Representation for a Legged Robot Based on Visual
+      Guidance'', Proc. of 6th European Workshop on Learning Robots
+      (EWLR-6), pp.121--126, 1997.<li>
+ <li> <em>Koh Hosoda</em>, Mitsuhiko Kamado, and
+      Minoru Asada, ``Vision-based
+      servoing control for legged robots'', Proc. of IEEE Int.  Conf. on
+      Robotics and Automation, pp.3154--3159, 1997.</li>
+</ul>
+<h4>関連項目：</h4>
+<ul>
+  <li> ロボット座標系と世界座標系についての参照フレーム問題</li>
+  <li> 視覚サーボ</li>
+</ul>
+<div class=navi>
+<a class=navi href="#top">
+▲ Page Top (T)</a> 
+</div>
+<hr class=hidden>
+<!---------------------------------------------------------------->
+<h3>視覚と力覚を持つロボットの適応的制御系<br>
+Hybrid Vision/Force Servoing Control</h3>
+<h4>研究背景：</h4>
+<h4>研究目的と成果：</h4>
+<h4>論文：</h4>
+<h4>関連項目：</h4>
+<div class=navi>
+<a class=navi href="#top">
+▲ Page Top (T)</a> 
+</div>
+<hr class=hidden>
+<!---------------------------------------------------------------->
+<h3>カメラのズーム機構を利用した視覚サーボ<br>
+Visual Servoing Utilizing Zoom Mechanism</h3>
+<h4>研究背景：</h4>
+<h4>研究目的と成果：</h4>
+<h4>論文：</h4>
+<h4>関連項目：</h4>
+<div class=navi>
+<a class=navi href="#top">
+▲ Page Top (T)</a> 
+</div>
+<hr class=hidden>
+<!---------------------------------------------------------------->
+<h3>適応的視覚サーボ<br>
+Adaptive Visual Servoing</h3>
+<h4>研究背景：</h4>
+<h4>研究目的と成果：</h4>
+<h4>論文：</h4>
+<h4>関連項目：</h4>
+<div class=navi>
+<a class=navi href="#top">
+▲ Page Top (T)</a> 
+</div>
+<hr class=hidden>
+<!---------------------------------------------------------------->
+<h3>マクロ・マイクロマニピュレータシステムの設計と制御<br>
+Macro/Micro Manipulator Systems</h3>
+<h4>研究背景：</h4>
+<p>柔軟なマニピュレータによって，振動やたわみの影響をなるべく押さえて
+作業を実現する方法の一つとして，マニピュレータの先端により剛性が高く，
+小さいマニピュレータを取り付ける，<em>マクロ・マイクロマニピュレータ</em>(親子
+アームなどと呼ばれることもある)の構成が考えられる．例えば，スペースシャ
+トルに搭載されるアームや，高圧電線作業用のマニピュレータなどにこのよう
+なマクロ・マイクロマニピュレータが採用されている．</p>
+<h4>研究目的と成果：</h4>
+<p>この研究では，柔軟なマクロマニピュレータが生じる振動やたわみを，よ
+りサイズの小さいマニピュレータで補償できるかどうかを幾何学的に調べ，準
+静的な制御によって補償する準静的，あるいはマニピュレータ全体の動力学的
+な性質までを考慮して制御する動的軌道制御，そして振動によって生じる力の
+ふらつきを補償する力制御を提案し，実験的にその有効性を検証している．</p>
+<h4>論文：</h4>
+<ul class=bibliography>
+  <li class=japanese lang="jp"> 吉川恒夫，<em>細田耕</em>，土井利次，"
+    マクロ−マイクロシステムによるフレキシブルアームの動的軌道制御"，
+    日本ロボット学会誌，12巻，2号，pp.131-135，1994．</li>
+  <li class=japanese lang="jp"> 吉川恒夫，<em>細田耕</em>，"マクロ・マ
+    イクロシステムによるフレキシブル・マニピュレータの制御"，日本ロボッ
+    ト学会誌，12巻，2号，pp.39-44，1994．</li>
+  <li class=japanese lang="jp"> 吉川恒夫，<em>細田耕</em>，土井利次，"
+   マクロ−マイクロシステムによるフレキシブルアームの準静的軌道制御"，
+   日本ロボット学会誌，11巻，1号，pp.140-147，1993．</li>
+ <li> Tsuneo Yoshikawa, <em>Koh Hosoda</em>,
+      Kensuke Harada, Atsushi Matsumoto,
+      and Hiroki Murakami, ``Hybrid Position/Force Control of Flexible
+      Manipulators by Macro-Micro Manioulator System'', Proc. of IEEE
+      Int. Conf. on Robotics and Automation, pp.2125--2129, 1994.</li>
+ <li> Tsuneo Yoshikawa, <em>Koh Hosoda</em>, and
+      Toshitsugu Doi, ``Dynamic
+      Trajectory Tracking Control of Flexible Manipulator by Macro-Micro
+      Manipulator System'', Proc. of IEEE Int. Conf. on Robotics and
+      Automation, pp.1804--1809, 1994.</li>
+ <li> Tsuneo Yoshikawa, <em>Koh Hosoda</em>, and
+      Toshitsugu Doi, ``Quasi-Static
+      Trajectory Tracking Control of Flexible Manipulator by Maco-Micro
+      System'', Proc. of IEEE Int. Conf. on Robotics and Automation,
+      pp.(3)210--215, 1993.</li>
+</ul>
+<h4>関連項目：</h4>
+<div class=navi>
+<a class=navi href="#top">
+▲ Page Top (T)</a> 
+</div>
+<hr class=hidden>
+<!---------------------------------------------------------------->
+<h3>フレキシブルアームのモデル化と制御<br>
+Modeling and Control of Flexible Manipulators</h3>
+<h4>研究背景：</h4>
+<p>宇宙でロボットアームを使用する場合，扱う対象物は大きく，そのためにアー
+ム自体が非常に<em>長尺</em>である反面，打ち上げにかかるコストを小さく
+するため，<em>重量はできるだけ小さい</em>ほうがよい．したがってロボッ
+トアームは，必然的に<em>剛性が低く</em>なり，<em>振動数の低い振動</em>
+を発生する．このような振動を制御し，高速高精度の動きを実現することが必
+要とされている．このような問題は宇宙では顕著であるが，地上の長尺な一般
+的アームにも発生する問題である．このようなアームのことを<em>フレキシブ
+ルアーム</em>と呼ぶ．</p>
+<h4>研究目的と成果：</h4>
+<p>この研究では，フレキシブルアームの振動を押さえ，いかにして制御するかと
+いう振動制御を実現するため，アームの振動をモデル化する方法，振動を抑制
+する制御則，および振動する長尺なアームの先に，小さいマイクロアームを取
+り付けて，先端での振動を保証する方法について研究した．</p>
+<p>まず振動をモデル化する方法であるが，先端の負荷が非常に大きく，アー
+ム自体の質量が無視できるような場合の<em>３次元ばね・質量モデル</em>，
+アーム自体の質量が無視できない場合に，簡単な試行実験によってパラメータ
+を同定できる<em>仮想剛体リンク・受動関節モデル</em>を提案した．</p>
+<p>３次元ばね・質量モデルを用い，３関節２リンクのPUMA型アームについて，
+振動抑制制御を導き，実験により制振効果を検証した．</p>
+<h4>論文：</h4>
+<ul class=bibliography>
+ <li> Tsuneo Yoshikawa and <em>Koh Hosoda</em>,
+      ``Modeling of Flexible
+      Manipulaotrs Using Virtual Rigid Links and Passive Joints'', The
+      International Journal of Robotics Research, Vol.15, No.3,
+      pp.290--299, 1996.</li>
+  <li class=japanese lang="jp"> <em>細田耕</em>，吉川恒夫，"平面2自由
+   度フレキシブルアームの軌道制御"，日本ロボット学会，11巻，7号，
+   pp.134-140，1993．</li>
+ <li> Tsuneo Yoshikawa, Hiroki Murakami and <em>Koh
+      Hosoda</em>, ``Modeling and
+      Control of a Three Degree of Freedom Manipulator with Two
+      Flexible Links'', Experimental Robotics II, The 2nd International
+      Symposium, Springer, pp.531--545, 1993.</li>
+  <li class=japanese lang="jp"> 吉川恒夫，<em>細田耕</em>，"仮想的な剛
+   体リンクと受動関節を用いたフレキシブルアームのモデリング"，計測自動
+   制御学会論文集，27巻，12号，pp.1389-1395，1991．</li>
+ <li> Tsuneo Yoshikawa and <em>Koh Hosoda</em>,
+      ``Modeling of Flexible
+      Manipulators Using Virtual Rigid Links and Passive Joints'', Proc. 
+      of IEEE/RSJ Int. Workshop on Intelligent Robots and
+      Systems(IROS'91), pp.967--972, 1991.</li>
+  <li class=japanese lang="jp"> 吉川恒夫，村上弘記，<em>細田耕</em>，
+   "2本のフレキシブルリンクを有する3自由度マニピュレータのモデリングと
+   制御"，日本ロボット学会誌，9巻，1号，pp.1-10，1991．</li>
+ <li> Tsuneo Yoshikawa, Hiroki Murakami and <em>Koh
+      Hosoda</em>, ``Modeling and
+      Control of a Three Degree of Freedom Manipulator with Two Flexible
+      Links'', Proc. of IEEE Int. Conf. on Decision and Control,
+      pp.2532--2537, 1990.</li>
+ <li> Tsuneo Yoshikawa, Hiroki Murakami and <em>Koh
+      Hosoda</em>, ``Modeling and
+      Control of a Three Degree of Freedom Manipulator with Two Flexible
+      Links'', Proc. of Japan-U.S.A. Symp. on Flexible Automation,
+      pp.965--971, 1990.</li>
+</ul>
+
+
+<h4>関連項目：</h4>
+<div class=navi>
+<a class=navi href="#top">
+▲ Page Top (T)</a> 
+</div>
+<hr class=hidden>
+<!---------------------------------------------------------------->
+<address>
+<a href="http://validator.w3.org/check/referer">
+<img src="img/valid-html401.gif"
+        alt="Valid HTML 4.01!" height="31" width="88"></a><br>
+Copyright &copy; Koh Hosoda
+</address>
+</div>
+</body>
+</html>
